@@ -10,7 +10,7 @@ function App() {
       <HeaderContainer />
       <div className="mycontainer">
         <Routes>
-          <Route path='/Metaverse' element={<Main />} />
+          <Route path='/Metamask' element={<Main />} />
           <Route path='/personal/:id' element={<PersonalContainer />} />
         </Routes>
       </div>
